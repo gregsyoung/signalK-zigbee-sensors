@@ -41,7 +41,8 @@ This is done using an "MQTT IN" node and some other nodes to extract the "state"
 
 ![image](https://github.com/gregsyoung/signalK-zigbee-sensors/blob/main/nodered%20parse%20mqtt.JPG)
 
-![image](https://github.com/gregsyoung/signalK-zigbee-sensors/blob/main/nodered_zigbee2mqtt_flow.json)
+see the nodered flow: 
+<nodered_zigbee2mqtt_flow.json>
 
 ![image](https://github.com/gregsyoung/signalK-zigbee-sensors/blob/main/zigbee_path_signalk.JPG)
 
