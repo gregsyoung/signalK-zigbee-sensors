@@ -3,8 +3,7 @@
 Zigbee is a low power wireless protocol for enabling sensors and other devices for home automation & telemetry/control.  Zigbee door/window sensor are inexpensive and readily available from a variety of sources, driven by the home automation market. Door/window sensors are battery powered and can be stuck onto the frames of hatches, doors, portholes etc to provide an indication to signalk of the state (eg open/closed)
 
 ![image](https://github.com/gregsyoung/signalK-zigbee-sensors/blob/main/porthole_sensor.jpg)
-
-![image]![image](https://github.com/gregsyoung/WilhelmSK/blob/main/zigbee%20coordinator.jpg)
+![image](https://github.com/gregsyoung/WilhelmSK/blob/3ff1d6e42ee1e675eebfd41a922053dbab9622ad/aqara%20door%20window%20sensor.jpg)
 
 
 ## Zigbee2MQTT software
@@ -17,10 +16,9 @@ Note: use signalK-MQTT plugin to install/run the local MQTT server.
 ## Zigbee Coordinator
 ZigBee Coordinators (ZCs) are the only ZigBee device-type that can form (as opposed to join) a network. Or in other words is like a "gateway" for Zigbee devices to connect to RPi /signalK.
 There are various Zigbee adaptors available - however for this purpose a simple USB device that just passes the information to the RPi will suffice.
-I have used a "sonoff zigbee 3.0 USB ZBdongle-P" 
-The dongle needs to be flashed with "Z-stack coordinator firmware (see above guide) and further details below
+I have used a "sonoff zigbee 3.0 USB ZBdongle-P".
+The dongle needs to be flashed with "Z-stack coordinator firmware (see above guide) and further details below.
 
-![image](https://github.com/gregsyoung/signalK-zigbee-sensors/blob/main/zigbee2mqtt%20devices.JPG)
 ![image](https://github.com/gregsyoung/WilhelmSK/blob/main/zigbee%20coordinator.jpg)
 
 https://github.com/Koenkk/Z-Stack-firmware/blob/master/coordinator/README.md
